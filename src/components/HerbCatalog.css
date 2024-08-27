@@ -1,0 +1,48 @@
+/* src/components/HerbCatalog.css */
+.herb-catalog {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .herb-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .herb-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 300px;
+  }
+  
+  .herb-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .herb-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0 5px 0;
+  }
+  
+  .herb-card p {
+    font-size: 1em;
+    color: #555;
+  }
+  

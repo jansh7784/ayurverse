@@ -1,0 +1,74 @@
+/* src/components/ChatbotPage.css */
+.chatbot-page {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #4caf50;
+  }
+  
+  .chat-window {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .chat-message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    max-width: 70%;
+  }
+  
+  .chat-message.user {
+    background: #4caf50;
+    color: white;
+    align-self: flex-end;
+    margin-left: auto;
+  }
+  
+  .chat-message.bot {
+    background: #e0e0e0;
+    color: #333;
+    align-self: flex-start;
+    margin-right: auto;
+  }
+  
+  .chat-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .chat-input button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .chat-input button:hover {
+    background-color: #45a049;
+  }
+  

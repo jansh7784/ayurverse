@@ -1,0 +1,43 @@
+/* src/components/AvatarCustomization.css */
+.avatar-customization-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .avatar-preview {
+    margin-bottom: 20px;
+  }
+  
+  .avatar-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid;
+    object-fit: cover;
+  }
+  
+  .customization-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-section,
+  .color-section {
+    margin-bottom: 15px;
+  }
+  
+  .upload-label,
+  .color-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="file"] {
+    margin: 10px 0;
+  }
+  
+  input[type="color"] {
+    width: 100px;
+  }
+  
